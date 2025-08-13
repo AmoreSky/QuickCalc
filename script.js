@@ -43,7 +43,7 @@ function area_of_circle(){
         let radiusValue = radius.value
         let area = (pi * (radiusValue**2)).toFixed(2)
         // alert(area)
-        show.innerHTML = `Area of Circle: ${area}`
+        show.innerHTML = `Area of Circle: ${area}m²`
         show.style.padding = '20px';
         show.style.display = 'block';
     })
