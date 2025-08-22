@@ -1,0 +1,31 @@
+/* Two-column button layout for mobile */
+@media (max-width: 576px) {
+    .container {
+        padding: 1rem 0.2rem;
+    }
+
+    .button-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .button-grid .btn {
+        min-width: 0;
+        width: 100%;
+        margin: 0 !important;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .fs-5 {
+        font-size: 1rem !important;
+    }
+
+    #show {
+        font-size: 1rem !important;
+    }
+}
